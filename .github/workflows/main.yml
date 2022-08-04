@@ -37,7 +37,7 @@ jobs:
           cmd: build # will run `yarn build` command
         
       - name: Installing surge
-          cmd: npm install -g surge 
+        run: npm install -g surge 
         
       - name: deploying using surge
-          cmd: surge ./build https://formikmultistepform.surge.sh/ --token ${{secrets.MULTI_STEP_TOKEN}}
+        run: surge ./build http://formikmultistepform.surge.sh/ --token ${{secrets.MULTI_STEP_TOKEN}}
