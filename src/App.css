@@ -25,4 +25,29 @@
   margin-top: 1vh;
 }
 
+.reviewDetails {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.reviewTile {
+  display: flex;
+  width: 40vh;
+  padding: 2vh;
+  margin-bottom: 2vh;
+}
+
+.reviewTile1 {
+  font-weight: bolder;
+  text-align: right;
+  padding-right: 1vh;
+}
+
+.reviewTile2 {
+  /* font-weight: bolder; */
+  text-align: left;
+  /* padding-right: 1vh; */
+}
+
 
